@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 //import './App.css'
 import Button from 'react-bootstrap/Button';
+import Header from './Pages/SideBar';
 
 
 
@@ -12,6 +11,7 @@ function App() {
 
   return (
     <div>
+      <Header/>
     </div>
   )
 }
