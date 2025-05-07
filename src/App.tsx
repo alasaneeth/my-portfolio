@@ -8,7 +8,7 @@ import Button from 'react-bootstrap/Button';
 
 function App() {
   const [count, setCount] = useState(0)
-//Test commit for github configration
+//Terminal Commit
 
   return (
     <div>
