@@ -11,7 +11,7 @@ const Header = () => {
       <a href="#" className="text-xl font-bold">alasaneeth</a>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-6 text-white font-medium">
+      <ul className="hidden md:flex gap-6 text-white font-medium hidden md:block">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Projects</a></li>
