@@ -4,6 +4,7 @@ import "./App.css"
 import Hero from './components/Pages/Hero'
 import About from './components/Pages/About'
 import Projects from './components/Pages/Projects'
+import TechincalSkills from './components/Pages/TechincalSkills'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Hero/>
       <About/>
       <Projects/>
+      <TechincalSkills/>
     </div>
   )
 }
