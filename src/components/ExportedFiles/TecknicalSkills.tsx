@@ -18,8 +18,7 @@ import {
   SiGit,
   SiGithub,
 } from "react-icons/si";
-import { FaJava, FaAws } from "react-icons/fa"; // Java, AWS fallback
-import { FaDatabase,FaVuejs,FaAngular,FaDocker } from "react-icons/fa";
+import { FaJava, FaAws, FaDatabase,FaVuejs,FaAngular,FaDocker } from "react-icons/fa"; // Java, AWS fallback
 import { MdDesignServices } from "react-icons/md"; // Material Design icons
 import { TbBrandCSharp } from "react-icons/tb";
 
