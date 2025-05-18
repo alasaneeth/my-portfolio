@@ -19,11 +19,10 @@ import {
   SiGithub,
 } from "react-icons/si";
 import { FaJava, FaAws } from "react-icons/fa"; // Java, AWS fallback
-import { FaDatabase } from "react-icons/fa";
+import { FaDatabase,FaVuejs,FaAngular,FaDocker } from "react-icons/fa";
 import { MdDesignServices } from "react-icons/md"; // Material Design icons
 import { TbBrandCSharp } from "react-icons/tb";
-import { FaVuejs } from "react-icons/fa";
-import { FaAngular } from "react-icons/fa";
+
 
 
 
@@ -52,5 +51,7 @@ export const TECHNICAL_SKILLS = [
   { icon: <SiPostman className="text-orange-500" />, label: "Postman" },
   { icon: <SiGit className="text-orange-600" />, label: "Git" },
   { icon: <SiGithub className="text-black" />, label: "GitHub" },
+   { icon: <FaDocker className="text-blue-900" />, label: "AWS" },
   { icon: <FaAws className="text-yellow-600" />, label: "AWS" },
+
 ];
