@@ -11,7 +11,7 @@ const Projects = () => {
     rel="noopener noreferrer"
     className="inline-block bg-indigo-100 text-indigo-700 font-medium px-3 py-1 rounded-full hover:bg-indigo-200 transition"
   >
-    Assist To Titum (PVT) Ltd
+   Associated with titum (PVT)Ltd
   </a>
 </h2>
 
