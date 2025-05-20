@@ -3,11 +3,22 @@ import { projects } from "../ExportedFiles/Projects";
 const Projects = () => {
   return (
     <section className="px-6 md:px-20 py-20 bg-gray-50">
-      <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
-        My <span className="text-indigo-600">Projects</span>
-      </h2>
+<h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
+  My <span className="text-indigo-600">Projects</span>{" - "}
+  <a
+    href="https://www.linkedin.com/company/titumofficial/posts/?feedView=all"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block bg-indigo-100 text-indigo-700 font-medium px-3 py-1 rounded-full hover:bg-indigo-200 transition"
+  >
+    Assist To Titum (PVT) Ltd
+  </a>
+</h2>
+
+
+
       <div className="grid md:grid-cols-2 gap-10">
-        {projects.map((project:any, index:number) => (
+        {projects.map((project: any, index: number) => (
           <div
             key={index}
             className="bg-white rounded-2xl shadow hover:shadow-lg transition duration-300 overflow-hidden"
@@ -23,7 +34,7 @@ const Projects = () => {
               </h3>
               <p className="text-gray-600 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2">
-                {project.tech.map((tech:any, idx:number) => (
+                {project.tech.map((tech: any, idx: number) => (
                   <span
                     key={idx}
                     className="bg-indigo-100 text-indigo-600 text-sm font-medium px-3 py-1 rounded-full"
