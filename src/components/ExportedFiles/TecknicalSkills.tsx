@@ -50,7 +50,6 @@ export const TECHNICAL_SKILLS = [
   { icon: <SiPostman className="text-orange-500" />, label: "Postman" },
   { icon: <SiGit className="text-orange-600" />, label: "Git" },
   { icon: <SiGithub className="text-black" />, label: "GitHub" },
-   { icon: <FaDocker className="text-blue-900" />, label: "AWS" },
+  { icon: <FaDocker className="text-blue-900" />, label: "Docker" },
   { icon: <FaAws className="text-yellow-600" />, label: "AWS" },
-
 ];
