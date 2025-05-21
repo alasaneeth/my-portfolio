@@ -22,7 +22,7 @@ const Hero = () => {
             href="https://github.com/alasaneeth"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-700 hover:text-black text-2xl"
+            className="text-black hover:text-black text-2xl"
           >
             <FaGithub />
           </a>
@@ -38,7 +38,7 @@ const Hero = () => {
             href="https://wa.me/0740822580"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-green-600 hover:text-green-800 text-2xl"
+            className="text-green-800 hover:text-green-900 text-2xl !text-green-800"
           >
             <FaWhatsapp />
           </a>
