@@ -1,5 +1,6 @@
 import React from 'react';
 import heroImage from "../../assets/images/Hero.jpg";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -14,12 +15,19 @@ const Hero = () => {
             Full-Stack Software Engineer
           </span>
         </p>
-        <a
-          href="#projects"
-          className="inline-block px-6 py-3 text-white bg-indigo-600 hover:bg-indigo-700 rounded-lg shadow transition-all duration-300"
-        >
-          View My Work
-        </a>
+
+        {/* Social Icons */}
+        <div className="flex justify-center md:justify-start space-x-6 mt-4">
+          <a href="https://github.com/alasaneeth" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-black text-2xl">
+            <FaGithub />
+          </a>
+          <a href="https://www.linkedin.com/in/aasif-saneeth-bin-abdul-latheef/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-900 text-2xl">
+            <FaLinkedin />
+          </a>
+          <a href="https://wa.me/0740822580" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-800 text-2xl">
+            <FaWhatsapp />
+          </a>
+        </div>
       </div>
 
       {/* Hero Image */}
