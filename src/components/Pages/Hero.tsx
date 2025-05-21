@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-16 bg-gradient-to-r from-[#f9fafb] to-[#e5e7eb]">
       {/* Text Content */}
-      <div className="w-full md:w-1/2 text-center md:text-left">
+      <div className="w-full md:w-1/2 text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
           Hi, I'm <span className="text-indigo-600">Saneeth</span>
         </h1>
@@ -17,14 +17,29 @@ const Hero = () => {
         </p>
 
         {/* Social Icons */}
-        <div className="flex justify-center md:justify-start space-x-6 mt-4">
-          <a href="https://github.com/alasaneeth" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-black text-2xl">
+        <div className="flex justify-center space-x-6 mt-4">
+          <a
+            href="https://github.com/alasaneeth"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-700 hover:text-black text-2xl"
+          >
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/aasif-saneeth-bin-abdul-latheef/" target="_blank" rel="noopener noreferrer" className="text-blue-700 hover:text-blue-900 text-2xl">
+          <a
+            href="https://www.linkedin.com/in/aasif-saneeth-bin-abdul-latheef/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-700 hover:text-blue-900 text-2xl"
+          >
             <FaLinkedin />
           </a>
-          <a href="https://wa.me/0740822580" target="_blank" rel="noopener noreferrer" className="text-green-600 hover:text-green-800 text-2xl">
+          <a
+            href="https://wa.me/0740822580"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-600 hover:text-green-800 text-2xl"
+          >
             <FaWhatsapp />
           </a>
         </div>
