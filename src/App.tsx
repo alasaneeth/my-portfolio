@@ -6,6 +6,7 @@ import About from './components/Pages/About'
 import Projects from './components/Pages/Projects'
 import TechincalSkills from './components/Pages/TechincalSkills'
 import SoftSkills from './components/Pages/SoftSkills'
+import Services from './components/Pages/Service'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Projects/>
       <TechincalSkills/>
       <SoftSkills/>
+      <Services/>
     </div>
   )
 }
