@@ -7,6 +7,7 @@ import Projects from './components/Pages/Projects'
 import TechincalSkills from './components/Pages/TechincalSkills'
 import SoftSkills from './components/Pages/SoftSkills'
 import Services from './components/Pages/Service'
+import Footer from './components/Pages/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <TechincalSkills/>
       <SoftSkills/>
       <Services/>
+      <Footer/>
     </div>
   )
 }
