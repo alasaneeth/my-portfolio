@@ -1,20 +1,10 @@
 import React from "react";
-import aboutImage from "../../assets/images/about.jpg";
 
 const About = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-20 bg-white">
-      {/* About Image */}
-      <div className="w-full md:w-1/2 flex justify-center mb-10 md:mb-0">
-        <img
-          className="rounded-2xl shadow-xl max-w-xs md:max-w-md lg:max-w-lg transform hover:scale-105 transition-transform duration-300"
-          src={aboutImage}
-          alt="About"
-        />
-      </div>
-
+    <section className="px-6 md:px-20 py-20 bg-white">
       {/* Text Content */}
-      <div className="w-full md:w-1/2 text-center md:text-left">
+      <div className="w-full text-center md:text-left">
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
           About <span className="text-indigo-600">Me</span>
         </h2>
