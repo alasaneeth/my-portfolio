@@ -7,11 +7,11 @@ const Header = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="bg-gray-900 px-6 py-4 flex items-center justify-between relative z-50">
+    <header className="bg-gray-900 px-6 py-4 flex items-center justify-between fixed top-0 left-0 w-full z-50">
       <a href="#" className="text-xl font-bold">alasaneeth</a>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-6 text-white font-medium hidden md:block">
+      <ul className="hidden md:flex gap-6 text-white font-medium">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Projects</a></li>
@@ -29,7 +29,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="absolute top-full left-0 w-full bg-gray-900 md:hidden z-40">
+        <div className="fixed top-16 left-0 w-full bg-gray-900 md:hidden z-40">
           <ul className="flex flex-col items-center gap-4 py-6 text-white font-medium">
             <li><a href="#" onClick={toggleMenu}>Home</a></li>
             <li><a href="#" onClick={toggleMenu}>About</a></li>
