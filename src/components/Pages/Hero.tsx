@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-16 bg-gradient-to-r from-[#f9fafb] to-[#e5e7eb]">
+    <section id='home' className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-16 bg-gradient-to-r from-[#f9fafb] to-[#e5e7eb]">
       {/* Text Content */}
       <div className="w-full md:w-1/2 text-center">
         <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">

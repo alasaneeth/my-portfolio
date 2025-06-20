@@ -2,7 +2,7 @@ import { projects } from "../ExportedFiles/Projects";
 
 const Projects = () => {
   return (
-    <section className="px-6 md:px-20 py-20 bg-gray-50">
+    <section id="projects" className="px-6 md:px-20 py-20 bg-gray-50">
 <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
   My <span className="text-indigo-600">Projects</span>{" - "}
   <a

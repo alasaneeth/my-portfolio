@@ -12,10 +12,13 @@ const Header = () => {
 
       {/* Desktop Menu */}
       <ul className="hidden md:flex gap-6 text-white font-medium">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#techncalSckills">Tecknical Skills</a></li>
+        <li><a href="#softSkills">Soft Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contacts">Contacts</a></li>
       </ul>
 
       {/* Mobile Menu Toggle Button */}
@@ -31,10 +34,13 @@ const Header = () => {
       {isOpen && (
         <div className="fixed top-16 left-0 w-full bg-gray-900 md:hidden z-40">
           <ul className="flex flex-col items-center gap-4 py-6 text-white font-medium">
-            <li><a href="#" onClick={toggleMenu}>Home</a></li>
-            <li><a href="#" onClick={toggleMenu}>About</a></li>
-            <li><a href="#" onClick={toggleMenu}>Projects</a></li>
-            <li><a href="#" onClick={toggleMenu}>Contacts</a></li>
+            <li><a href="#home" onClick={toggleMenu}>Home</a></li>
+            <li><a href="#about" onClick={toggleMenu}>About</a></li>
+            <li><a href="#projects" onClick={toggleMenu}>Projects</a></li>
+            <li><a href="#techncalSckills"  onClick={toggleMenu}>Tecknical Skills</a></li>
+            <li><a href="#techncalSckills"  onClick={toggleMenu}>Soft Skills</a></li>
+            <li><a href="#techncalSckills"  onClick={toggleMenu}>Services</a></li>
+            <li><a href="#contacts" onClick={toggleMenu}>Contacts</a></li>
           </ul>
         </div>
       )}
